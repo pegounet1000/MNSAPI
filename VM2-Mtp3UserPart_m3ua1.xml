@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<heartbeattime value="10000"/>
+<aspFactoryList>
+<!--	<aspFactory name="asp213" assocName="c2c13" started="true" maxseqnumber="256" aspid="0" heartbeat="true"/>-->
+<!--	<aspFactory name="asp214" assocName="c2c14" started="true" maxseqnumber="256" aspid="0" heartbeat="true"/>-->
+<!--	<aspFactory name="asp223" assocName="c2c23" started="true" maxseqnumber="256" aspid="1" heartbeat="true"/>-->
+<!--	<aspFactory name="asp224" assocName="c2c24" started="true" maxseqnumber="256" aspid="1" heartbeat="true"/>-->
+<!-- changed on 24th AUG 2022 from c1c### -> c2c###-->
+	<aspFactory name="asp212" assocName="c2c11" started="true" maxseqnumber="256" aspid="0" heartbeat="true"/>
+	<aspFactory name="asp222" assocName="c2c22" started="true" maxseqnumber="256" aspid="1" heartbeat="true"/>
+<!-- changed on 24th AUG 2022-->
+</aspFactoryList>
+<asList>
+	<as name="asTK1" minAspActiveForLb="0" functionality="IPSP" exchangeType="SE" ipspType="CLIENT">
+		<trafficMode mode="2"/>
+		<defTrafficMode mode="2"/>
+		<asps>
+			<asp name="asp212"/>
+		</asps>
+	</as>
+  <as name="asTK2" minAspActiveForLb="0" functionality="IPSP" exchangeType="SE" ipspType="CLIENT">
+		<trafficMode mode="2"/>
+		<defTrafficMode mode="2"/>
+		<asps>
+			<asp name="asp222"/>
+		</asps>
+	</as>
+</asList>
+<route>
+	<!-- 2833 instance 1 prod point code, 2839 instance 2 prod point code -->
+	<!-- 2832 instance 1 preprod point code, 2838 instance 2 preprod point code -->
+    <key value="2819:2839:-1"/>
+	<!-- changed on 24th AUG 2022
+	<key value="2800:2839:-1"/>
+	changed on 24th AUG 2022-->
+	<routeAs trafficModeType="2" as="asTK1"/>
+	<key value="2820:2839:-1"/>
+	<!-- changed on 24th AUG 2022
+	<key value="2803:2839:-1"/>
+	changed on 24th AUG 2022-->
+	<routeAs trafficModeType="2" as="asTK2"/>
+	
+</route>
