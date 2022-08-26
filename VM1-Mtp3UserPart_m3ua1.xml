@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<heartbeattime value="10000"/>
+<aspFactoryList>
+	<!--aspFactory name="asp111" assocName="c1c11" started="true" maxseqnumber="256" aspid="0" heartbeat="true"/>
+	<aspFactory name="asp112" assocName="c1c12" started="true" maxseqnumber="256" aspid="0" heartbeat="true"/>
+	<aspFactory name="asp121" assocName="c1c21" started="true" maxseqnumber="256" aspid="1" heartbeat="true"/>
+	<aspFactory name="asp122" assocName="c1c22" started="true" maxseqnumber="256" aspid="1" heartbeat="true"/-->
+<!--	<aspFactory name="asp131" assocName="c1c31" started="true" maxseqnumber="256" aspid="2" heartbeat="true"/>-->
+	<aspFactory name="asp111" assocName="c1c11" started="true" maxseqnumber="256" aspid="0" heartbeat="true"/>
+	<aspFactory name="asp121" assocName="c1c21" started="true" maxseqnumber="256" aspid="1" heartbeat="true"/>
+</aspFactoryList>
+<asList>
+	<as name="asTK1" minAspActiveForLb="0" functionality="IPSP" exchangeType="SE" ipspType="CLIENT">
+		<trafficMode mode="2"/>
+		<defTrafficMode mode="2"/>
+		<asps>
+			<asp name="asp111"/>
+<!--			<asp name="asp112"/>-->
+		</asps>
+	</as>
+  <as name="asTK2" minAspActiveForLb="0" functionality="IPSP" exchangeType="SE" ipspType="CLIENT">
+		<trafficMode mode="2"/>
+		<defTrafficMode mode="2"/>
+		<asps>
+			<asp name="asp121"/>
+<!--			<asp name="asp122"/>-->
+		</asps>
+	</as>
+	<!-- to be removed, OINIS LAB PROD-->
+<!--	<as name="asTK3" minAspActiveForLb="0" functionality="IPSP" exchangeType="SE" ipspType="CLIENT">-->
+<!--		<trafficMode mode="2"/>-->
+<!--		<defTrafficMode mode="2"/>-->
+<!--		<asps>-->
+<!--			<asp name="asp131"/>-->
+<!--		</asps>-->
+<!--	</as>-->
+</asList>
+<route>
+	<!-- 2833 instance 1 prod point code, 2839 instance 2 prod point code -->
+	<!-- 2832 instance 1 preprod point code, 2838 instance 2 preprod point code -->
+	<!--key value="2819:2833:-1"/>
+	<routeAs trafficModeType="2" as="asTK1"/>
+	<key value="2820:2833:-1"/>
+	<routeAs trafficModeType="2" as="asTK2"/-->
+	<!-- to be removed, OINIS LAB PROD-->
+<!--	<key value="2821:2833:-1"/>-->
+<!--	<routeAs trafficModeType="2" as="asTK3"/>-->
+	<key value="2819:2833:-1"/>
+	<routeAs trafficModeType="2" as="asTK1"/>
+	<key value="2820:2833:-1"/>
+	<routeAs trafficModeType="2" as="asTK2"/>
+
+<!-- changed on 24th AUG 2022
+	<key value="2800:2833:-1"/>
+	<routeAs trafficModeType="2" as="asTK1"/>
+	<key value="2803:2833:-1"/>
+	<routeAs trafficModeType="2" as="asTK2"/>
+changed on 24th AUG 2022--> 
+
+</route>

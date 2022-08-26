@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<remoteSsns/>
+<remoteSpcs>
+<!-- changed on 24th AUG 2022
+	<id value="0"/>
+	<value remoteSpc="2800" remoteSpcFlag="0" mask="0"/>
+	<id value="1"/>
+	<value remoteSpc="2833" remoteSpcFlag="0" mask="0"/>
+	<id value="2"/>
+	<value remoteSpc="2803" remoteSpcFlag="0" mask="0"/>
+changed on 24th AUG 2022 -->
+
+	<id value="0"/>
+	<value remoteSpc="2819" remoteSpcFlag="0" mask="0"/>
+	<id value="1"/>
+	<value remoteSpc="2820" remoteSpcFlag="0" mask="0"/>
+
+	
+</remoteSpcs>
+<concernedSpcs>
+	<id value="0"/>
+	<value remoteSpc="2833"/>
+</concernedSpcs>
