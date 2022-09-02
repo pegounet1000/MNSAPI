@@ -8,7 +8,7 @@
 		</patternSccpAddress>
 	</value>
 	<id value="2"/>
-	<value ruleType="Loadshared" loadSharingAlgo="Undefined" originatingType="LocalOriginated" mask="K" paddress="2" saddress="2" networkId="0">
+	<value ruleType="Loadshared" loadSharingAlgo="Undefined" originatingType="LocalOriginated" mask="K" paddress="2" saddress="3" networkId="0">
 		<patternSccpAddress pc="0" ssn="0">
 			<ai value="18"/>
 			<gt type="GT0100" tt="0" es="1" np="7" nai="4" digits="*"/>
@@ -22,15 +22,16 @@
 		<gt type="GT0100" tt="0" es="1" np="1" nai="4" digits="*"/>
 	</sccpAddress>
 	<id value="2"/>
-	<sccpAddress pc="2803" ssn="6">
+	<sccpAddress pc="2819" ssn="6">
 		<ai value="17"/>
 		<gt type="GT0100" tt="0" es="1" np="7" nai="4" digits="*"/>
 	</sccpAddress>
 	<id value="3"/>
-	<sccpAddress pc="2800" ssn="6">
+	<sccpAddress pc="2820" ssn="6">
 		<ai value="17"/>
 		<gt type="GT0100" tt="0" es="1" np="7" nai="4" digits="*"/>
 	</sccpAddress>
+	<!-- sccpAddress pc="2819" & pc="2820" put instead of 2803 & 2800 which are local SCTP port -->
 </routingAddress>
 <longMessageRule/>
 <sap>

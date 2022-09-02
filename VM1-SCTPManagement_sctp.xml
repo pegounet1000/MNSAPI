@@ -2,32 +2,6 @@
 <connectdelay value="5000"/>
 <servers/>
 <associations>
-	<!--name value="c1c11"/>
-	<association name="c1c11" assoctype="CLIENT" hostAddress="217.167.15.170" hostPort="2800" peerAddress="193.249.224.2" peerPort="2833" serverName="" ipChannelType="0" extraHostAddresseSize="1">
-		<extraHostAddress value="217.167.15.186"/>
-  </association>
-
-	<name value="c1c12"/>
-	<association name="c1c12" assoctype="CLIENT" hostAddress="217.167.15.186" hostPort="2801" peerAddress="193.249.224.87" peerPort="2833" serverName="" ipChannelType="0" extraHostAddresseSize="1">
-		<extraHostAddress value="217.167.15.170"/>
-  </association>
-
-	<name value="c1c21"/>
-	<association name="c1c21" assoctype="CLIENT" hostAddress="217.167.15.170" hostPort="2802" peerAddress="193.249.223.140" peerPort="2833" serverName="" ipChannelType="0" extraHostAddresseSize="1">
-		<extraHostAddress value="217.167.15.186"/>
-  </association>
-
-	<name value="c1c22"/>
-	<association name="c1c22" assoctype="CLIENT" hostAddress="217.167.15.186" hostPort="2803" peerAddress="193.249.224.125" peerPort="2833" serverName="" ipChannelType="0" extraHostAddresseSize="1">
-		<extraHostAddress value="217.167.15.170"/>
-  </association-->
-
-<!-- previous OINIS lab asso c1c31 -->
-    <!--name value="c1c31"/>
-	<association name="c1c31" assoctype="CLIENT" hostAddress="217.167.15.172" hostPort="2821" peerAddress="193.249.224.236" peerPort="2833" serverName="" ipChannelType="0" extraHostAddresseSize="1">
-		<extraHostAddress value="217.167.15.188"/>
-  </association-->
-
 	<name value="c1c11"/>
 	<association name="c1c11" assoctype="CLIENT" hostAddress="217.167.15.170" hostPort="2800" peerAddress="193.249.223.232" peerPort="2833" serverName="" ipChannelType="0" extraHostAddresseSize="1">
 		<extraHostAddress value="217.167.15.186"/>
