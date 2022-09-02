@@ -21,8 +21,8 @@
 	</as>
 </asList>
 <route>
-	<key value="2819:2819:-1"/>
+	<key value="2833:-1:-1"/>
 	<routeAs trafficModeType="2" as="asTK1"/>
-	<key value="2820:2820:-1"/>
+	<key value="2833:-1:-1"/>
 	<routeAs trafficModeType="2" as="asTK2"/>
 </route>
