@@ -2,30 +2,9 @@
 <connectdelay value="5000"/>
 <servers/>
 <associations>
-<!--instance 2 -->
-<!--
-	<name value="c2c13"/>
-	<association name="c2c13" assoctype="CLIENT" hostAddress="217.167.15.187" hostPort="2800" peerAddress="193.249.224.18" peerPort="2839" serverName="" ipChannelType="0" extraHostAddresseSize="1">
-		<extraHostAddress value="217.167.15.171"/> --> <!-- secondary address on same sctp port -->
-<!--
-  </association>
-	<name value="c2c14"/>
-	<association name="c2c14" assoctype="CLIENT" hostAddress="217.167.15.171" hostPort="2801" peerAddress="193.249.224.71" peerPort="2839" serverName="" ipChannelType="0" extraHostAddresseSize="1">
-		<extraHostAddress value="217.167.15.187"/>
-  </association>
-	<name value="c2c23"/>
-	<association name="c2c23" assoctype="CLIENT" hostAddress="217.167.15.187" hostPort="2802" peerAddress="193.249.223.156" peerPort="2839" serverName="" ipChannelType="0" extraHostAddresseSize="1">
-		<extraHostAddress value="217.167.15.171"/>
-  </association>
-	<name value="c2c24"/>
-	<association name="c2c24" assoctype="CLIENT" hostAddress="217.167.15.171" hostPort="2803" peerAddress="193.249.224.109" peerPort="2839" serverName="" ipChannelType="0" extraHostAddresseSize="1">
-		<extraHostAddress value="217.167.15.187"/>
-  </association>
- </association-->
-
 	<name value="c2c12"/>
 	<association name="c2c12" assoctype="CLIENT" hostAddress="217.167.15.187" hostPort="2800" peerAddress="193.249.223.248" peerPort="2839" serverName="" ipChannelType="0" extraHostAddresseSize="1">
-		<extraHostAddress value="217.167.15.171"/> <!-- secondary address on same sctp port -->
+		<extraHostAddress value="217.167.15.171"/>
   </association>
 
 	<name value="c2c22"/>
